@@ -1,4 +1,5 @@
 # hydra-discovery-service
 
 # The discover service for the Hydra project.
-# It get's asked by the Gateway (Hydra-Zuul) for where the microservices are.
+# It holds all the routing information for every service in Hydra.
+# Can be asked by the Gateway or any other service with the correct annotations.
