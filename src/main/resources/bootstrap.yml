@@ -3,4 +3,8 @@ spring:
     name: eureka
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8761
+
+security:
+  basic:
+    enabled: false
