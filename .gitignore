@@ -1,24 +1,48 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+#Eclipse
+/.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+**/local.properties
+**/*.settings/
+.loadpath
+**/*.recommenders
+**/*.project
+**/*.classpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java annotation processor (APT)
+.factorypath
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
 .springBeans
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Code Recommenders
+.recommenders/
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+#Java
+**/*.class
+**/*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+#target folder from Maven
+*/target/**
+
+#Servers folder from Tomcat
+*/Servers/**
