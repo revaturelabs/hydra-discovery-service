@@ -1,6 +1,9 @@
 spring:
   application:
     name: hydra-discovery-service
+  cloud:
+    config:
+      uri: https://hydra-config-service.cfapps.io/
     
 server:
   port: 8761

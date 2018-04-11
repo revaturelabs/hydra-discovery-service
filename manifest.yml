@@ -1,7 +1,7 @@
 applications:
-- name: hydra-service-discovery
+- name: hydra-discovery-service
   memory: 700M
   instances: 1
-  random-route: true
+  random-route: false
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   path: target/hydra-discovery-service-0.0.1-SNAPSHOT.jar
